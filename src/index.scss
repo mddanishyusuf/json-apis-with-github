@@ -1,0 +1,382 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
+@import "~video-react/styles/scss/video-react";
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+
+  font-family: 'Poppins', sans-serif !important;
+}
+
+.how-it-work {
+  padding: 80px 0px;
+
+  .key-points {
+    padding: 60px 0px;
+
+    .col-md-6 {
+      margin-bottom: 40px;
+    }
+
+    .key-points-value {
+      display: grid;
+      align-self: center;
+      padding: 40px;
+    }
+
+    img {
+      padding: 20px;
+      width: 80%
+    }
+
+    .overlay {
+      background-color: rgba(0, 0, 0, 0.2);
+      bottom: 0;
+      left: 0;
+      padding: 20px;
+      padding-right: 20px;
+      position: absolute;
+      right: 0;
+      top: 0;
+      border-radius: 2px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+    }
+  }
+}
+
+.footer {
+  background-color: #FF9100;
+  padding: 10px;
+  font-size: 13px;
+  display: inline-block;
+
+  span {
+    border: 2px solid #1A2172;
+    padding: 3px 10px;
+    margin: 0px 10px
+  }
+
+  a {
+    color: #1A2172;
+    font-weight: 700;
+  }
+}
+
+.landing-section {
+  height: 80vh;
+
+  .cta-section {
+    align-self: center;
+    color: #fff;
+    padding: 20px;
+    .login-button {
+      margin-top: 40px;
+    }
+  }
+
+  .product-video-section {
+    display: grid;
+    align-self: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 0px 40px, rgba(0, 0, 0, 0.16) 0px 0px 12px;
+    padding: 0px;
+    background: rgb(255, 255, 255);
+    border-radius: 5px;
+    overflow: hidden;
+    video {
+
+      width: 100%;
+    }
+  }
+}
+
+.list-header {
+  display: grid;
+  grid-template-columns: auto 200px;
+
+}
+
+.donate-btn {
+  align-self: center;
+
+  button {
+    font-size: 13px;
+
+    span {
+      padding: 0px 10px;
+    }
+  }
+
+  button.btn-warning {
+    display: flex;
+  }
+}
+
+.db-options {
+  height: 70px;
+
+  .file-table {
+    table {
+      font-size: 14px;
+
+      th {
+        padding: 5px 20px 5px 0px;
+      }
+
+      td {
+        padding: 5px 20px 5px 0px;
+      }
+    }
+  }
+}
+
+.btn-bottom {
+  position: absolute;
+  bottom: 20px;
+
+}
+
+.repository-section {
+  h3 {
+    padding: 20px 0px;
+  }
+
+  img {
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+    margin: 40px 0px;
+  }
+}
+
+.no-repository-container {
+  margin-top: 40px;
+  text-align: center;
+  padding: 60px;
+}
+
+.side-navbar {
+  padding: 10px;
+
+  h3 {
+    padding: 10px 20px;
+
+    a {
+      color: #000;
+      text-decoration: none
+    }
+  }
+
+}
+
+.events-btn {
+  font-size: 12px;
+
+  div {
+    padding: 10px;
+  }
+
+  button {
+    padding: 2px 10px;
+  }
+}
+
+button {
+  padding: 2px 10px;
+
+}
+
+.list-container {
+  padding: 60px 0px;
+}
+
+.list-repo {
+
+  .list {
+    font-size: 1rem;
+    padding: 10px;
+
+    &:nth-child(odd) {
+      background-color: rgb(245, 244, 242);
+    }
+  }
+}
+
+.editor {
+  display: grid;
+  grid-template-columns: 20% auto;
+  grid-gap: 20px;
+}
+
+ul {
+  margin: 0px 0px 0px 20px;
+  list-style: none;
+  line-height: 2em;
+  font-family: Arial;
+
+  li {
+    font-size: 13px;
+    position: relative;
+    cursor: pointer;
+
+    font-family: 'Poppins', sans-serif;
+
+
+
+    .file-list {
+      display: flex;
+    }
+
+    .file-icon {
+      padding-right: 10px;
+    }
+
+    &:before {
+      position: absolute;
+      left: -15px;
+      top: 0px;
+      content: '';
+      display: block;
+      border-left: 1px solid #ddd;
+      height: 1em;
+      border-bottom: 1px solid #ddd;
+      width: 10px;
+    }
+
+    &:after {
+      position: absolute;
+      left: -15px;
+      bottom: -7px;
+      content: '';
+      display: block;
+      border-left: 1px solid #ddd;
+      height: 100%;
+    }
+
+    &.root {
+      margin: 0px 0px 0px -20px;
+
+      &:before {
+        display: none;
+      }
+
+      &:after {
+        display: none;
+      }
+
+
+    }
+
+
+    &:last-child {
+      &:after {
+        display: none
+      }
+    }
+  }
+}
+
+.delete-file {
+  cursor: pointer;
+}
+
+.event-message {
+  font-size: 13px;
+}
+
+
+div.jsoneditor-value.jsoneditor-string {
+  padding: 3px 10px 0px 10px;
+}
+
+#snackbar {
+  visibility: hidden;
+  /* Hidden by default. Visible on click */
+  min-width: 250px;
+  /* Set a default minimum width */
+  margin-left: -125px;
+  /* Divide value of min-width by 2 */
+  background-color: #333;
+  /* Black background color */
+  color: #fff;
+  /* White text color */
+  text-align: center;
+  /* Centered text */
+  border-radius: 2px;
+  /* Rounded borders */
+  padding: 16px;
+  /* Padding */
+  position: fixed;
+  /* Sit on top of the screen */
+  z-index: 1;
+  /* Add a z-index if needed */
+  left: 50%;
+  /* Center the snackbar */
+  top: 30px;
+  /* 30px from the bottom */
+}
+
+/* Show the snackbar when clicking on a button (class added with JavaScript) */
+#snackbar.show {
+  visibility: visible;
+  /* Show the snackbar */
+  /* Add animation: Take 0.5 seconds to fade in and out the snackbar. 
+  However, delay the fade out process for 2.5 seconds */
+  -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+/* Animations to fade the snackbar in and out */
+@-webkit-keyframes fadein {
+  from {
+    bottom: 0;
+    opacity: 0;
+  }
+
+  to {
+    bottom: 30px;
+    opacity: 1;
+  }
+}
+
+@keyframes fadein {
+  from {
+    bottom: 0;
+    opacity: 0;
+  }
+
+  to {
+    bottom: 30px;
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeout {
+  from {
+    bottom: 30px;
+    opacity: 1;
+  }
+
+  to {
+    bottom: 0;
+    opacity: 0;
+  }
+}
+
+@keyframes fadeout {
+  from {
+    bottom: 30px;
+    opacity: 1;
+  }
+
+  to {
+    bottom: 0;
+    opacity: 0;
+  }
+}

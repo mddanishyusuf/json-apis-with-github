@@ -1,0 +1,8 @@
+.jsoneditor-react-container {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.jsoneditor-tree {
+  padding: 20px;
+}
