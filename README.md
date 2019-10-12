@@ -24,7 +24,8 @@
 
 ## 📖 About This Tool
 
-I was re-desiging my portfolio webiste and my main task that where I'll host my basic data from where I can manage the content easy and simple. But there are no solution. So, I get the idea about GitHub API and using GitHub APIs I build this tool. So, my website(https://mohddanish.me) content is managed by this tool. So, I published this on ProductHunt(https://www.producthunt.com/posts/apis-with-github) and when people ask me that it's open souce? And then I say No. So, I quickly make this tool open Source. Because I love when people wants to contribute in your projects. check this thread (https://twitter.com/mddanishyusuf/status/1124261537537974278)
+I was re-designing my portfolio website and my main task was this where I'll host my basic data from where I can manage the content easily and in a simple way. But I couldn't find are no solution. So, I get the idea about GitHub API and using GitHub APIs I build this tool. So, my website(https://mohddanish.me) content is managed by this tool. So, I published this on ProductHunt(https://www.producthunt.com/posts/apis-with-github) and when people ask me that it's open-source? And then I say No. So, I quickly make this tool open Source. Because I love when people want to contribute to your projects. check this thread (https://twitter.com/mddanishyusuf/status/1124261537537974278)
+
 
 <br/>
 
