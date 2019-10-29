@@ -75,13 +75,12 @@ function RepositoryList({ history }) {
                 {repoList === null ? (
                     <div className="no-repository-container">
                         <div>
-                            <h4>there is no database</h4>
+                            <h4>Create your first Database</h4>
                             <small>
-                                1. Make a new <b>fresh Public GitHub Repository</b> with <b>README.md</b> file. Make new
-                                repo{' '}
+                                1. Create new <b>Public GitHub Repository</b> with default <b>README.md</b> file, go to{' '}
                                 <a href="https://github.com/new" target="_blank" rel="noopener noreferrer">
                                     https://github.com/new{' '}
-                                </a>
+                                </a> to create new repository.
                                 <br />
                                 {isAppInstalled ? '✅' : ''}2. Install {/* 2. {' '} */}
                                 <a
@@ -91,15 +90,7 @@ function RepositoryList({ history }) {
                                 >
                                     this
                                 </a>{' '}
-                                app on your GitHub Profile.{' '}
-                                <a
-                                    href="https://github.com/apps/api-with-github"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                >
-                                    https://github.com/apps/api-with-github
-                                </a>{' '}
-                                and give repository access.
+                                app on your GitHub Profile and give repository access.
                             </small>
                             <hr />
                         </div>
