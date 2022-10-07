@@ -42,12 +42,6 @@ This tool is build with React(CRA), GitHub APIs, JSON Editor(https://github.com/
 
 <br/>
 
-## 🤝 How to Contribute
-
-So, Yes, you can add any feature that will help others. And Suggestion is also a contribution. If you have any comment So, you can leave your thought here. https://github.com/mddanishyusuf/json-apis-with-github/issues/1
-
-<br/>
-
 ### Tool Build With
 
 - **ReactJS**- Create React APP(https://github.com/facebook/create-react-app)
