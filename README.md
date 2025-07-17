@@ -2,14 +2,6 @@
   APIs with GitHub
 </h1>
 
-<h3 align="center">
-  💡 :rocket:
-</h3>
-<p align="center">
-  🌐 Website: <a href="https://apiwithgithub.com" target="_blank">https://apiwithgithub.com</a><br/>
-  This is a simple tool to make JSON APIs for quick use for your basic projects. Your APIs are hosted on GitHub as JSON file that's simple
-</p>
-
 <a href="https://apiwithgithub.com" target="_blank"><img src="https://user-images.githubusercontent.com/9165019/57135078-db7e8e80-6dc5-11e9-8043-44517d4edef1.png"/></a>
 
 
